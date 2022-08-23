@@ -1,0 +1,114 @@
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.header-menu {
+  margin-top: 31px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+}
+a {
+  color: #ababab;
+  text-decoration: none;
+}
+/* mouse over link*/
+a:hover {
+  color: #65d1c2;
+}
+/* selected link */
+a:active {
+  color: #65d1c2;
+}
+.is-current {
+  color: #65d1c2;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction-title {
+  color: #65d1c2;
+}
+.introduction-paragraph {
+  display: flex;
+  padding: 10px;
+  width: 1000px;
+}
+#p1,#p2{
+  margin:5px
+}
+.services {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  align-items: center; 
+  justify-content: center;
+  margin: 15px auto 2.5rem;
+  padding: 2em 2em 0;
+  color: white;
+ 
+}
+.service-patients{
+  background: #00b39b;
+  height: 250px;
+  padding: 10px;
+}
+.service-doctors{
+  background:#3d83df;
+  height: 250px;
+  padding: 10px;
+}
+.clinics{
+  background:#1b2734;
+  height: 250px;
+  padding: 10px;
+}
+.brands{
+  display: flex;
+  margin: 50px 15px;
+}
+.brands__logos{
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.offices__header{
+  align-items: center;
+  max-width: 700px;
+    margin: 30px auto 4.1875rem;
+    font-size: .950em;
+    text-align: center;
+}
+.offices__slider{
+  display: grid;
+  grid-template-columns: 25% 25% 25% ;
+}
+.join-us{
+  max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+.footer{
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+  margin-top: 65px;
+}
